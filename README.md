@@ -1,4 +1,4 @@
-# 🤖 Juez Logit
+# Juez Logit
 ### *Sistema de Arbitraje Inteligente para Combates de Robótica*
 
 [![Status](https://img.shields.io/badge/System-Active-10b981?style=for-the-badge)](https://github.com/tu-usuario/juez-logit)
@@ -34,9 +34,9 @@
 
 ```text
 juez-logit/
-├── app.py                # Servidor principal y lógica de arbitraje
-├── static/               # Estilos y lógica de frontend
+├── app.py                
+├── static/               
 ├── templates/
-│   └── index.html        # Dashboard principal
+│   └── index.html        #
 ├── recordings/           # Almacenamiento de videos capturados
 └── history/              # Logs y base de datos de combates
