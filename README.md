@@ -33,10 +33,16 @@
 ## Estructura del Repositorio
 
 ```text
-juez-logit/
-├── app.py                
-├── static/               
-├── templates/
-│   └── index.html        #
-├── recordings/           # Almacenamiento de videos capturados
-└── history/              # Logs y base de datos de combates
+.
+├── backend/                # Lógica central del sistema
+│   ├── models/             # Definiciones de datos y esquemas
+│   ├── services/           # Lógica de negocio y procesamiento
+│   ├── routers/            # Endpoints de la API
+│   ├── templates/          # Vistas HTML (Flask/Jinja2)
+│   ├── videos/             # Almacenamiento de archivos multimedia
+│   ├── database.py         # Gestión de persistencia
+│   └── main.py             # Punto de entrada del backend
+├── rules_engine.py         # Algoritmo de decisión y lógica de arbitraje
+├── server.js               # Servidor de interfaz / Integración Node.js
+├── requirements.txt        # Dependencias de Python
+└── README.md               # Documentación del proyecto
