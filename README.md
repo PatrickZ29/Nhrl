@@ -1,7 +1,6 @@
 # Juez Logit  
 ### Sistema Inteligente de Arbitraje para Combates de Robótica
 
-[![Status](https://img.shields.io/badge/System-Active-10b981?style=for-the-badge)]()  
 [![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)]()  
 [![Backend](https://img.shields.io/badge/API-FastAPI-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)  
 [![Hardware](https://img.shields.io/badge/Hardware-Raspberry_Pi_Zero_2W-C51A4A?style=for-the-badge&logo=raspberry-pi)]()  
